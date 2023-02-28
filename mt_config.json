@@ -10,9 +10,13 @@
     "views": {
         "completeViewCore": {
             "packages": [],
-            "ignorePackages": [
-                "core*"
-            ]
+            "ignorePackages": [],
+            "pathView": true
+        },
+        "completeViewCorexx": {
+            "packages": [],
+            "ignorePackages": [],
+            "pathView": false
         }
     }
 }
