@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/Perlten/MT-diagrams/master/config.schema.json",
-    "name": "tp",
+    "name": "test_project",
     "rootFolder": "tp_src",
     "github": {
         "url": "https://github.com/JesperRusbjerg/test_project",
@@ -8,15 +8,9 @@
     },
     "saveLocation": "./diagrams/",
     "views": {
-        "completeViewCore": {
+        "completeView": {
             "packages": [],
-            "ignorePackages": [],
-            "pathView": true
-        },
-        "completeViewCorexx": {
-            "packages": [],
-            "ignorePackages": [],
-            "pathView": false
+            "ignorePackages": []
         }
     }
 }
