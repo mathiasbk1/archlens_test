@@ -1,6 +1,6 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Perlten/MT-diagrams/master/config.schema.json",
-    "name": "test_project",
+    "$schema": "https://raw.githubusercontent.com/Perlten/Architectural-Lens/master/config.schema.json",
+    "name": "demo_project",
     "rootFolder": "tp_src",
     "github": {
         "url": "https://github.com/JesperRusbjerg/test_project",
@@ -11,6 +11,10 @@
         "completeView": {
             "packages": [],
             "ignorePackages": []
+        },
+        "apiView": {
+            "packages": ["api"],
+            "ignorePackages": ["*test*"]
         }
     }
 }
