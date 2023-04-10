@@ -20,7 +20,7 @@
                 }
             ],
             "ignorePackages": [
-                "*test*"
+                
             ]
         },
         "apiViewDepth": {
