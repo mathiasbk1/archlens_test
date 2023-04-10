@@ -13,8 +13,26 @@
             "ignorePackages": []
         },
         "apiView": {
-            "packages": ["api"],
-            "ignorePackages": ["*test*"]
+            "packages": [
+                {
+                    "packagePath": "api",
+                    "depth": 1
+                }
+            ],
+            "ignorePackages": [
+                "*test*"
+            ]
+        },
+        "apiViewDepth": {
+            "packages": [
+                {
+                    "packagePath": "api",
+                    "depth": 1
+                }
+            ],
+            "ignorePackages": [
+                "*test*"
+            ]
         }
     }
 }
