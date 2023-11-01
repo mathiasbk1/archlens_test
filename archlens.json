@@ -1,38 +1,21 @@
 {
     "$schema": "https://raw.githubusercontent.com/Perlten/Architectural-Lens/master/config.schema.json",
-    "name": "demo_project",
+    "name": "archlens_test",
     "rootFolder": "tp_src",
     "github": {
-        "url": "https://github.com/JesperRusbjerg/test_project",
+        "url": "https://github.com/mathiasbk1/archlens_test",
         "branch": "main"
     },
     "saveLocation": "./diagrams/",
     "views": {
         "completeView": {
-            "packages": [],
+            "packages": [
+                {
+                    "packagePath": "",
+                    "depth": 0
+                }
+            ],
             "ignorePackages": []
-        },
-        "apiView": {
-            "packages": [
-                {
-                    "packagePath": "api",
-                    "depth": 1
-                }
-            ],
-            "ignorePackages": [
-                
-            ]
-        },
-        "apiViewDepth": {
-            "packages": [
-                {
-                    "packagePath": "api",
-                    "depth": 1
-                }
-            ],
-            "ignorePackages": [
-                "*test*"
-            ]
         }
     }
 }
