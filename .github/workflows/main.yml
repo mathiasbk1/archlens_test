@@ -15,6 +15,6 @@ jobs:
         uses: archlens/render-diff-on-pr@main
         with:
           config-path: "tp_src/archlens.json"
-          BRANCH_NAME: "new_branch_${{ github.event.pull_request.number }}"
+          render-diff: "true"
 
 
