@@ -16,5 +16,6 @@ jobs:
         with:
           config-path: "archlens.json"
           render-diff: "true"
+          BRANCH_NAME: "${{github.event.pull_request.number}}"
 
 
