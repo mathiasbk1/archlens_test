@@ -14,7 +14,7 @@ jobs:
       - id: run_archlens
         uses: archlens/render-diff-on-pr@main
         with:
-          config-path: "tp_src/archlens.json"
+          config-path: "archlens.json"
           render-diff: "true"
 
 
