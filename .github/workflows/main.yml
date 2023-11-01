@@ -2,7 +2,7 @@ name: Test Archlens action
 on:
   - pull_request
 
-permissions: write-all
+permissions: {write-all, read-all}
 
 jobs:
   render-diff-and-upload-comment:
