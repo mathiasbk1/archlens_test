@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - id: run archlens
+      - id: run_archlens
         uses: archlens/render-diff-on-pr@main
         with:
           config-path: "test_project/archlens.json"
