@@ -14,7 +14,7 @@ jobs:
       - id: run_archlens
         uses: archlens/render-diff-on-pr@main
         with:
-          config-path: "test_project/archlens.json"
+          config-path: "archlens.json"
           BRANCH_NAME: "new_branch_${{ github.event.pull_request.number }}"
 
 
