@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Perlten/Architectural-Lens/master/config.schema.json",
+    "$schema": "https://raw.githubusercontent.com/archlens/ArchLens/master/config.schema.json",
     "name": "archlens_test",
     "rootFolder": "tp_src",
     "github": {
@@ -9,10 +9,25 @@
     "saveLocation": "./diagrams/",
     "views": {
         "completeView": {
+            "packages": [],
+            "ignorePackages": []
+        },
+        "apiView": {
             "packages": [
                 {
-                    "packagePath": "",
+                    "path": "*",
                     "depth": 0
+                }
+            ],
+            "ignorePackages": [
+                
+            ]
+        },
+        "apiViewDepth": {
+            "packages": [
+                {
+                    "path": "api",
+                    "depth": 1
                 }
             ],
             "ignorePackages": []
